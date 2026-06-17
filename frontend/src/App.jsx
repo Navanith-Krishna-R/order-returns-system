@@ -1,5 +1,5 @@
-import "./App.css";
-import ReturnForm from "./components/ReturnForm";
+import "./styles/App.css";
+import DashboardPage from "./pages/DashboardPage";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         </div>
       </header>
       <main className="app-main">
-        <ReturnForm />
+        <DashboardPage />
       </main>
       <footer className="app-footer">
         <p>&copy; 2026 Order Returns System. All rights reserved.</p>

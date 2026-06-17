@@ -1,19 +1,21 @@
 const express = require("express");
-const mongoose = require("mongoose");
 const cors = require("cors");
 require("dotenv").config();
 
+const connectDB = require("./config/db");
+const returnRoutes = require("./routes/returnRoutes");
+const errorHandler = require("./middleware/errorHandler");
+
 const app = express();
+
+connectDB();
 
 app.use(cors());
 app.use(express.json());
 
-mongoose
-  .connect(process.env.MONGO_URI)
-  .then(() => console.log("MongoDB Connected"))
-  .catch((err) => console.log(err));
+app.use("/api/returns", returnRoutes);
 
-app.use("/api/returns", require("./routes/returnRoutes"));
+app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
 
