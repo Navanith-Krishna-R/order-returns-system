@@ -6,6 +6,12 @@ The Order Returns System is a full-stack enterprise web application for managing
 
 The application provides real-time dashboard analytics, search and filter capabilities, and a responsive UI designed for desktop, tablet, and mobile devices.
 
+## Application Preview
+
+![Order Returns System Dashboard](./screenshots/dashboard-overview.png)
+
+The dashboard displays return statistics, approval rates, return history, search and filtering functionality, and return management features.
+
 ## Features
 
 - Create return requests with form validation
