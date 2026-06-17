@@ -11,10 +11,7 @@ The application validates return requests, calculates return eligibility, mainta
 ![Order Returns System Dashboard](./screenshots/dashboard-overview.png)
 
 The dashboard displays return statistics, approval rates, return history, search and filtering functionality, and return management features.
-<<<<<<< HEAD
 
-=======
->>>>>>> 678be76 (Updated README and added project screenshots)
 ## Features
 
 * Submit return requests
