@@ -189,8 +189,4 @@ The backend runs at: **http://localhost:5000**
 Navanith Krishna R  
 B.E. Computer Science and Engineering  
 BMS College of Engineering
-<<<<<<< HEAD
 
-Mail:navanith.cs22@bmsce.ac.in
-=======
->>>>>>> 143781a (Updated final README)
